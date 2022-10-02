@@ -1,18 +1,30 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
+##   Ephisher 	: 	Automated Phishing Tool
 ##   Author 	: 	ENTHERNET
 ##   Version 	: 	2.3.1
-##   Github 	: 	https://github.com/htr-tech/zphisher
+##   Github 	: 	https://github.com/Enthernetcode/Ephisher
 
 
 
 
 
-RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
-MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\033[37m')" BLACK="$(printf '\033[30m')"
-REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf '\033[43m')"  BLUEBG="$(printf '\033[44m')"
-MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
+RED="$(printf '\033[31m')"
+GREEN="$(printf '\033[32m')"
+ORANGE="$(printf '\033[33m')"
+BLUE="$(printf '\033[34m')"
+MAGENTA="$(printf '\033[35m')"
+CYAN="$(printf '\033[36m')"
+WHITE="$(printf '\033[37m')"
+BLACK="$(printf '\033[30m')"
+REDBG="$(printf '\033[41m')"
+GREENBG="$(printf '\033[42m')"
+ORANGEBG="$(printf '\033[43m')"
+BLUEBG="$(printf '\033[44m')"
+MAGENTABG="$(printf '\033[45m')"
+CYANBG="$(printf '\033[46m')"
+WHITEBG="$(printf '\033[47m')"
+BLACKBG="$(printf '\033[40m')"
 RESETBG="$(printf '\e[0m\n')"
 
 
@@ -231,8 +243,8 @@ about() {
 		${GREEN} Social   ${RED}:  ${CYAN}UNKOWN
 
 		${WHITE} ${REDBG}Warnings-${RESETBG}
-		${CYAN}  This Tool is only educational purposes  
-		  only ${RED}!${WHITE}${CYAN} users be will responsible for 
+		${CYAN}  This Tool is only for educational purposes  
+		 ${RED}!${WHITE}${CYAN} users  will be responsible for 
 		  any misuse of this tool ${RED}!${WHITE}
 		
 		${WHITE} ${CYANBG}Special Thanks to:${RESETBG}
@@ -549,7 +561,7 @@ main_menu() {
 		${RED}[${CYAN}09${RED}]${BLUE} Playstation   ${RED}[${CYAN}19${RED}]${ORANGE} Reddit       ${RED}[${CYAN}29${RED}]${BLUE} Vk
 		${RED}[${CYAN}10${RED}]${BLUE} Tiktok        ${RED}[${CYAN}20${RED}]${ORANGE} Adobe        ${RED}[${CYAN}30${RED}]${BLUE} XBOX
 		${RED}[${CYAN}31${RED}]${BLUE} Mediafire     ${RED}[${CYAN}32${RED}]${ORANGE} Gitlab       ${RED}[${WHITE}33${RED}]${BLUE} Github
-		${RED}[${CYAN}34${RED}]${BLUE} Discord       ${RED}[${CYAN}35${RED}]${ORANGE} Crypto_Wallets
+		${RED}[${CYAN}34${RED}]${BLUE} Discord       ${RED}[${CYAN}35${RED}]${ORANGE} Crypto_Wallets "(testting)"
 
 		${RED}[${ORANGE}99${RED}]${GREEM} ABOUT         ${RED}[${ORANGE}00${RED}]${GREEN} Exit
 
